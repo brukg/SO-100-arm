@@ -1,0 +1,51 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000
+    
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    
+    so_100_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    so_100_arm_gripper_controller:
+      type: position_controllers/JointGroupPositionController
+
+so_100_arm_controller:
+  ros__parameters:
+    joints:
+      - Shoulder_Rotation
+      - Shoulder_Pitch
+      - Elbow
+      - Wrist_Pitch
+      - Wrist_Roll
+    
+    interface_name: position
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+    
+    # Add this to prevent movement on startup
+    start_position_control: false
+    hold_position_on_startup: true
+    
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.0
+      joint_trajectory_controller:
+        joint1:
+          trajectory: 0.05
+          goal: 0.03
+
+so_100_arm_gripper_controller:
+  ros__parameters:
+    joints:
+      - Gripper
+    interface_name: position
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position

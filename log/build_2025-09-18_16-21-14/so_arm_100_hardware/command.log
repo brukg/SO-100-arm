@@ -1,0 +1,6 @@
+Invoking command in '/home/viki/dim/build/so_arm_100_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/viki/dim/so_arm_100_hardware -DCMAKE_INSTALL_PREFIX=/home/viki/dim/install/so_arm_100_hardware
+Invoked command in '/home/viki/dim/build/so_arm_100_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/viki/dim/so_arm_100_hardware -DCMAKE_INSTALL_PREFIX=/home/viki/dim/install/so_arm_100_hardware
+Invoking command in '/home/viki/dim/build/so_arm_100_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viki/dim/build/so_arm_100_hardware -- -j32 -l32
+Invoked command in '/home/viki/dim/build/so_arm_100_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/viki/dim/build/so_arm_100_hardware -- -j32 -l32
+Invoking command in '/home/viki/dim/build/so_arm_100_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viki/dim/build/so_arm_100_hardware
+Invoked command in '/home/viki/dim/build/so_arm_100_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/viki/dim/build/so_arm_100_hardware

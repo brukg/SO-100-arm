@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/viki/dim/build/so_100_arm
+-- Install configuration: ""
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof/meshes
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof/meshes/Upper_Arm.STL
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof/meshes/Moving_Jaw.STL
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof/meshes/Wrist_Pitch_Roll.STL
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof/meshes/Base.STL
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof/meshes/Shoulder_Rotation_Pitch.STL
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof/meshes/Lower_Arm.STL
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof/meshes/Fixed_Gripper.STL
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/models/so_100_arm_5dof/model.config
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/urdf
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/urdf/so_100_arm_5dof_hardware.urdf
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/urdf/so_100_arm_5dof.urdf
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/urdf/so_100_arm.urdf
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/urdf/so_100_arm_5dof.csv
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/joint_state_pub_guilaunch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/static_virtual_joint_tfs.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/hardware.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/move_group.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/spawn_controllers.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/setup_assistant.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/moveit_rviz.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/rviz.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/moveit.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/gz.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/launch/rsp.launch.py
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/initial_positions.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/pilz_cartesian_limits.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/kinematics.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/moveit.rviz
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/moveit_controllers.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/ros2_controllers.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/so_100_arm.srdf
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/controllers.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/so_100_arm.urdf.xacro
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/so_100_arm.ros2_control.xacro
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/sensors_3d.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/controllers_7dof.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/urdf.rviz
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/controllers_5dof.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/config/joint_limits.yaml
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/.setup_assistant
+-- Installing: /home/viki/dim/install/so_100_arm/share/ament_index/resource_index/package_run_dependencies/so_100_arm
+-- Installing: /home/viki/dim/install/so_100_arm/share/ament_index/resource_index/parent_prefix_path/so_100_arm
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/environment/ament_prefix_path.sh
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/environment/ament_prefix_path.dsv
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/environment/path.sh
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/environment/path.dsv
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/local_setup.bash
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/local_setup.sh
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/local_setup.zsh
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/local_setup.dsv
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/package.dsv
+-- Installing: /home/viki/dim/install/so_100_arm/share/ament_index/resource_index/packages/so_100_arm
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/cmake/so_100_armConfig.cmake
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/cmake/so_100_armConfig-version.cmake
+-- Installing: /home/viki/dim/install/so_100_arm/share/so_100_arm/package.xml

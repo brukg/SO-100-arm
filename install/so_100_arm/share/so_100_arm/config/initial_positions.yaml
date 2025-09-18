@@ -1,0 +1,9 @@
+# Default initial positions for so_100_arm's ros2_control fake system
+
+initial_positions:
+  Elbow: 0
+  Gripper: 0
+  Shoulder_Pitch: 0
+  Shoulder_Rotation: 0
+  Wrist_Pitch: 0
+  Wrist_Roll: 0

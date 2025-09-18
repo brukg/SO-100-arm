@@ -1,0 +1,139 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5eabee9a594bbbe43f97.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "include/SCServo_Linux",
+					"jsonFile" : "directory-include.SCServo_Linux-fac17dbee04462f1e402.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "include/SCServo_Linux",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "so_arm_100_hardware",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "SCServo",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "SCServo::@f65380b19e07b075ae91",
+					"jsonFile" : "target-SCServo-b3b58452b69ddc6ac051.json",
+					"name" : "SCServo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ping_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ping_test-b31e8c6f30d0cf29018e.json",
+					"name" : "ping_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so_arm_100_hardware::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so_arm_100_hardware-66d83b42f9da3407fa3e.json",
+					"name" : "so_arm_100_hardware",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "so_arm_100_hardware_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-so_arm_100_hardware_uninstall-066efe2aaae399181b07.json",
+					"name" : "so_arm_100_hardware_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_servo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_servo-6e82364ecc5d13645128.json",
+					"name" : "test_servo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e1ecea08edb71d2b549d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/viki/dim/build/so_arm_100_hardware",
+		"source" : "/home/viki/dim/so_arm_100_hardware"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

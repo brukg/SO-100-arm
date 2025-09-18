@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ping_test.dir/test/ping_test.cpp.o -o ping_test  include/SCServo_Linux/libSCServo.a 

@@ -1,0 +1,232 @@
+[0.000000] (-) TimerEvent: {}
+[0.000122] (-) JobUnselected: {'identifier': 'so_100_arm'}
+[0.000142] (so_arm_100_hardware) JobQueued: {'identifier': 'so_arm_100_hardware', 'dependencies': OrderedDict()}
+[0.000541] (so_arm_100_hardware) JobStarted: {'identifier': 'so_arm_100_hardware'}
+[0.005219] (so_arm_100_hardware) JobProgress: {'identifier': 'so_arm_100_hardware', 'progress': 'cmake'}
+[0.005621] (so_arm_100_hardware) Command: {'cmd': ['/usr/bin/cmake', '/home/viki/dim/so_arm_100_hardware', '-DCMAKE_INSTALL_PREFIX=/home/viki/dim/install/so_arm_100_hardware'], 'cwd': '/home/viki/dim/build/so_arm_100_hardware', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'viki'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda-12.1/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/cuda-12.1/lib64'), ('HOME', '/home/viki'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2991'), ('BUNDLED_DEBUGPY_PATH', '/home/viki/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9cc1bfa1eec954f55b7ba668cb867f'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'viki'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'viki'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/usr/local/cuda-12.1/bin:/home/viki/miniconda3/bin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/cuda-12.1/bin:/home/viki/miniconda3/bin:/home/viki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/viki/.local/bin:/home/viki/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/viki/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/viki/.local/bin'), ('SESSION_MANAGER', 'local/lnt:@/tmp/.ICE-unix/2991,unix/lnt:/tmp/.ICE-unix/2991'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80f12377_4a72_4d83_a224_53259ae5956b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/viki/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8d1f9071f8e9cb35.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/viki/.config/Code/User/workspaceStorage/cf1451b0f59822b4e0cd0e42e0ba4e3f/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-443b477a70.sock'), ('GNOME_TERMINAL_SERVICE', ':1.425'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/viki/dim/build/so_arm_100_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9cc1bfa1eec954f55b7ba668cb867f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.041874] (so_arm_100_hardware) StdoutLine: {'line': b'-- The C compiler identification is GNU 12.3.0\n'}
+[0.073407] (so_arm_100_hardware) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 12.3.0\n'}
+[0.077545] (so_arm_100_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099903] (-) TimerEvent: {}
+[0.121787] (so_arm_100_hardware) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.125268] (so_arm_100_hardware) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.125396] (so_arm_100_hardware) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.125640] (so_arm_100_hardware) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.127015] (so_arm_100_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.180222] (so_arm_100_hardware) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.183679] (so_arm_100_hardware) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.183762] (so_arm_100_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.183843] (so_arm_100_hardware) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.185249] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200016] (-) TimerEvent: {}
+[0.270243] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.300130] (-) TimerEvent: {}
+[0.312597] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.331249] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.333494] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.337117] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.342493] (so_arm_100_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.349910] (so_arm_100_hardware) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.369537] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.370814] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400273] (-) TimerEvent: {}
+[0.425447] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.442320] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.464438] (so_arm_100_hardware) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.470587] (so_arm_100_hardware) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.500477] (-) TimerEvent: {}
+[0.518633] (so_arm_100_hardware) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.518751] (so_arm_100_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.565965] (so_arm_100_hardware) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.566523] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.589981] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.600621] (-) TimerEvent: {}
+[0.662506] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.681086] (so_arm_100_hardware) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700760] (-) TimerEvent: {}
+[0.728029] (so_arm_100_hardware) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.728200] (so_arm_100_hardware) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/viki/dim/so_arm_100_hardware/include;/home/viki/dim/so_arm_100_hardware/include/SCServo_Linux\n'}
+[0.728264] (so_arm_100_hardware) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.728691] (so_arm_100_hardware) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.729221] (so_arm_100_hardware) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.729569] (so_arm_100_hardware) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.730878] (so_arm_100_hardware) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.730952] (so_arm_100_hardware) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.731399] (so_arm_100_hardware) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.731962] (so_arm_100_hardware) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.744274] (so_arm_100_hardware) StdoutLine: {'line': b'-- Generating done\n'}
+[0.747018] (so_arm_100_hardware) StdoutLine: {'line': b'-- Build files have been written to: /home/viki/dim/build/so_arm_100_hardware\n'}
+[0.752701] (so_arm_100_hardware) CommandEnded: {'returncode': 0}
+[0.753215] (so_arm_100_hardware) JobProgress: {'identifier': 'so_arm_100_hardware', 'progress': 'build'}
+[0.753973] (so_arm_100_hardware) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/viki/dim/build/so_arm_100_hardware', '--', '-j32', '-l32'], 'cwd': '/home/viki/dim/build/so_arm_100_hardware', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'viki'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda-12.1/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/cuda-12.1/lib64'), ('HOME', '/home/viki'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2991'), ('BUNDLED_DEBUGPY_PATH', '/home/viki/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9cc1bfa1eec954f55b7ba668cb867f'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'viki'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'viki'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/usr/local/cuda-12.1/bin:/home/viki/miniconda3/bin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/cuda-12.1/bin:/home/viki/miniconda3/bin:/home/viki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/viki/.local/bin:/home/viki/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/viki/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/viki/.local/bin'), ('SESSION_MANAGER', 'local/lnt:@/tmp/.ICE-unix/2991,unix/lnt:/tmp/.ICE-unix/2991'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80f12377_4a72_4d83_a224_53259ae5956b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/viki/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8d1f9071f8e9cb35.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/viki/.config/Code/User/workspaceStorage/cf1451b0f59822b4e0cd0e42e0ba4e3f/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-443b477a70.sock'), ('GNOME_TERMINAL_SERVICE', ':1.425'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/viki/dim/build/so_arm_100_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9cc1bfa1eec954f55b7ba668cb867f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.787494] (so_arm_100_hardware) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SCS.cpp.o\x1b[0m\n'}
+[0.787671] (so_arm_100_hardware) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SCSCL.cpp.o\x1b[0m\n'}
+[0.787805] (so_arm_100_hardware) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SCSerial.cpp.o\x1b[0m\n'}
+[0.788136] (so_arm_100_hardware) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SMSBL.cpp.o\x1b[0m\n'}
+[0.788453] (so_arm_100_hardware) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SMSCL.cpp.o\x1b[0m\n'}
+[0.788596] (so_arm_100_hardware) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SMS_STS.cpp.o\x1b[0m\n'}
+[0.800901] (-) TimerEvent: {}
+[0.831427] (so_arm_100_hardware) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX static library libSCServo.a\x1b[0m\n'}
+[0.854924] (so_arm_100_hardware) StdoutLine: {'line': b'[ 53%] Built target SCServo\n'}
+[0.868843] (so_arm_100_hardware) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ping_test.dir/test/ping_test.cpp.o\x1b[0m\n'}
+[0.869698] (so_arm_100_hardware) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/test_servo.dir/test/test_servo.cpp.o\x1b[0m\n'}
+[0.869830] (so_arm_100_hardware) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/so_arm_100_hardware.dir/src/so_arm_100_interface.cpp.o\x1b[0m\n'}
+[0.901212] (-) TimerEvent: {}
+[1.001457] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/test/ping_test.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.001624] (-) TimerEvent: {}
+[1.001711] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/test/ping_test.cpp:8:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.001772] (so_arm_100_hardware) StderrLine: {'line': b'    8 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char **argv)\n'}
+[1.001827] (so_arm_100_hardware) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[1.001876] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/test/ping_test.cpp:8:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.001930] (so_arm_100_hardware) StderrLine: {'line': b'    8 | int main(int argc, \x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K)\n'}
+[1.001979] (so_arm_100_hardware) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.002036] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/test/test_servo.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.002086] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/test/test_servo.cpp:8:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.002133] (so_arm_100_hardware) StderrLine: {'line': b'    8 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char **argv)\n'}
+[1.002180] (so_arm_100_hardware) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[1.002226] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/test/test_servo.cpp:8:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.002273] (so_arm_100_hardware) StderrLine: {'line': b'    8 | int main(int argc, \x1b[01;35m\x1b[Kchar **argv\x1b[m\x1b[K)\n'}
+[1.002319] (so_arm_100_hardware) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[1.034500] (so_arm_100_hardware) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX executable test_servo\x1b[0m\n'}
+[1.041594] (so_arm_100_hardware) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable ping_test\x1b[0m\n'}
+[1.080279] (so_arm_100_hardware) StdoutLine: {'line': b'[ 92%] Built target test_servo\n'}
+[1.086939] (so_arm_100_hardware) StdoutLine: {'line': b'[ 92%] Built target ping_test\n'}
+[1.101783] (-) TimerEvent: {}
+[1.202109] (-) TimerEvent: {}
+[1.302483] (-) TimerEvent: {}
+[1.402857] (-) TimerEvent: {}
+[1.503288] (-) TimerEvent: {}
+[1.603640] (-) TimerEvent: {}
+[1.704032] (-) TimerEvent: {}
+[1.804436] (-) TimerEvent: {}
+[1.904821] (-) TimerEvent: {}
+[2.005214] (-) TimerEvent: {}
+[2.026684] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type so_arm_100_controller::SOARM100Interface::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.026850] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:183:79:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.026912] (so_arm_100_hardware) StderrLine: {'line': b'  183 | hardware_interface::return_type SOARM100Interface::write(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[2.026992] (so_arm_100_hardware) StderrLine: {'line': b'      |                                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.027058] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:183:110:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.027122] (so_arm_100_hardware) StderrLine: {'line': b'  183 | urn_type SOARM100Interface::write(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[2.027173] (so_arm_100_hardware) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.027228] (so_arm_100_hardware) StderrLine: {'line': b'\n'}
+[2.027279] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type so_arm_100_controller::SOARM100Interface::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.027329] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:243:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kmove\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.027380] (so_arm_100_hardware) StderrLine: {'line': b'  243 |                 int \x1b[01;35m\x1b[Kmove\x1b[m\x1b[K = st3215_.ReadMove(servo_id);\n'}
+[2.027429] (so_arm_100_hardware) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.028415] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:218:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.028566] (so_arm_100_hardware) StderrLine: {'line': b'  218 | hardware_interface::return_type SOARM100Interface::read(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[2.028634] (so_arm_100_hardware) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.028686] (so_arm_100_hardware) StderrLine: {'line': b'\x1b[01m\x1b[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:218:109:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.028744] (so_arm_100_hardware) StderrLine: {'line': b'  218 | turn_type SOARM100Interface::read(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[2.028792] (so_arm_100_hardware) StderrLine: {'line': b'      |                                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.028840] (so_arm_100_hardware) StderrLine: {'line': b'\n'}
+[2.105434] (-) TimerEvent: {}
+[2.205803] (-) TimerEvent: {}
+[2.306193] (-) TimerEvent: {}
+[2.406570] (-) TimerEvent: {}
+[2.506943] (-) TimerEvent: {}
+[2.607329] (-) TimerEvent: {}
+[2.707695] (-) TimerEvent: {}
+[2.808078] (-) TimerEvent: {}
+[2.908449] (-) TimerEvent: {}
+[3.008818] (-) TimerEvent: {}
+[3.109216] (-) TimerEvent: {}
+[3.209589] (-) TimerEvent: {}
+[3.310035] (-) TimerEvent: {}
+[3.410299] (-) TimerEvent: {}
+[3.510667] (-) TimerEvent: {}
+[3.611044] (-) TimerEvent: {}
+[3.711432] (-) TimerEvent: {}
+[3.811781] (-) TimerEvent: {}
+[3.912097] (-) TimerEvent: {}
+[4.012325] (-) TimerEvent: {}
+[4.112587] (-) TimerEvent: {}
+[4.212882] (-) TimerEvent: {}
+[4.313085] (-) TimerEvent: {}
+[4.413311] (-) TimerEvent: {}
+[4.513567] (-) TimerEvent: {}
+[4.613860] (-) TimerEvent: {}
+[4.714160] (-) TimerEvent: {}
+[4.814360] (-) TimerEvent: {}
+[4.914585] (-) TimerEvent: {}
+[5.014807] (-) TimerEvent: {}
+[5.115034] (-) TimerEvent: {}
+[5.215228] (-) TimerEvent: {}
+[5.315423] (-) TimerEvent: {}
+[5.415655] (-) TimerEvent: {}
+[5.515938] (-) TimerEvent: {}
+[5.616150] (-) TimerEvent: {}
+[5.716344] (-) TimerEvent: {}
+[5.816579] (-) TimerEvent: {}
+[5.916802] (-) TimerEvent: {}
+[6.017131] (-) TimerEvent: {}
+[6.117374] (-) TimerEvent: {}
+[6.178894] (so_arm_100_hardware) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libso_arm_100_hardware.so\x1b[0m\n'}
+[6.217494] (-) TimerEvent: {}
+[6.317802] (-) TimerEvent: {}
+[6.418102] (-) TimerEvent: {}
+[6.499869] (so_arm_100_hardware) StdoutLine: {'line': b'[100%] Built target so_arm_100_hardware\n'}
+[6.511673] (so_arm_100_hardware) CommandEnded: {'returncode': 0}
+[6.512133] (so_arm_100_hardware) JobProgress: {'identifier': 'so_arm_100_hardware', 'progress': 'install'}
+[6.516966] (so_arm_100_hardware) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/viki/dim/build/so_arm_100_hardware'], 'cwd': '/home/viki/dim/build/so_arm_100_hardware', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'viki'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/usr/local/cuda-12.1/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/usr/local/cuda-12.1/lib64'), ('HOME', '/home/viki'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '2991'), ('BUNDLED_DEBUGPY_PATH', '/home/viki/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9cc1bfa1eec954f55b7ba668cb867f'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'viki'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'viki'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/usr/local/cuda-12.1/bin:/home/viki/miniconda3/bin:/opt/ros/humble/bin:/usr/local/cuda/bin:/usr/local/cuda-12.1/bin:/home/viki/miniconda3/bin:/home/viki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/viki/.local/bin:/home/viki/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/viki/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/viki/.local/bin'), ('SESSION_MANAGER', 'local/lnt:@/tmp/.ICE-unix/2991,unix/lnt:/tmp/.ICE-unix/2991'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/80f12377_4a72_4d83_a224_53259ae5956b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/viki/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8d1f9071f8e9cb35.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/viki/.config/Code/User/workspaceStorage/cf1451b0f59822b4e0cd0e42e0ba4e3f/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-443b477a70.sock'), ('GNOME_TERMINAL_SERVICE', ':1.425'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/viki/dim/build/so_arm_100_hardware'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=2b9cc1bfa1eec954f55b7ba668cb867f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.518198] (-) TimerEvent: {}
+[6.522226] (so_arm_100_hardware) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.522376] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/so_arm_100_hardware.xml\n'}
+[6.522525] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/library_path.sh\n'}
+[6.522562] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/library_path.dsv\n'}
+[6.522584] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config\n'}
+[6.522604] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config/calibration.yaml\n'}
+[6.522645] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config/hardware_config.yaml\n'}
+[6.522685] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config/posses\n'}
+[6.522709] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config/posses/zero.txt\n'}
+[6.522759] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include\n'}
+[6.522781] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux\n'}
+[6.522811] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMS_STS.h\n'}
+[6.522859] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSBL.h\n'}
+[6.522915] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSerial.cpp\n'}
+[6.522969] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/CMakeLists.txt\n'}
+[6.523026] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSerial.h\n'}
+[6.523083] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSBL.cpp\n'}
+[6.523163] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSCL.cpp\n'}
+[6.523223] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMS_STS.cpp\n'}
+[6.523289] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSCL.h\n'}
+[6.523345] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSCL.h\n'}
+[6.523400] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/.gitignore\n'}
+[6.523455] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCS.cpp\n'}
+[6.523513] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSCL.cpp\n'}
+[6.523571] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/INST.h\n'}
+[6.523624] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCS.h\n'}
+[6.523678] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCServo.h\n'}
+[6.523737] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/so_arm_100_hardware\n'}
+[6.523778] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/so_arm_100_hardware/so_arm_100_interface.hpp\n'}
+[6.523843] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/posses\n'}
+[6.524144] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/posses/zero.txt\n'}
+[6.524237] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/libso_arm_100_hardware.so\n'}
+[6.527898] (so_arm_100_hardware) StdoutLine: {'line': b'-- Set runtime path of "/home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/libso_arm_100_hardware.so" to ""\n'}
+[6.527983] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/test_servo\n'}
+[6.528016] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/ping_test\n'}
+[6.528042] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/calibrate_arm.py\n'}
+[6.528066] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/zero_pose.py\n'}
+[6.528088] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/jog_joints.py\n'}
+[6.528263] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/ament_index/resource_index/package_run_dependencies/so_arm_100_hardware\n'}
+[6.528319] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/ament_index/resource_index/parent_prefix_path/so_arm_100_hardware\n'}
+[6.528378] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/ament_prefix_path.sh\n'}
+[6.528561] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/ament_prefix_path.dsv\n'}
+[6.528601] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/path.sh\n'}
+[6.528627] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/path.dsv\n'}
+[6.528649] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.bash\n'}
+[6.528672] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.sh\n'}
+[6.528694] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.zsh\n'}
+[6.528808] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.dsv\n'}
+[6.528832] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/package.dsv\n'}
+[6.528852] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/ament_index/resource_index/packages/so_arm_100_hardware\n'}
+[6.528872] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/so_arm_100_hardware\n'}
+[6.528892] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.528911] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.528931] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.528950] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/so_arm_100_hardwareConfig.cmake\n'}
+[6.528970] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/so_arm_100_hardwareConfig-version.cmake\n'}
+[6.528990] (so_arm_100_hardware) StdoutLine: {'line': b'-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/package.xml\n'}
+[6.529804] (so_arm_100_hardware) CommandEnded: {'returncode': 0}
+[6.537327] (so_arm_100_hardware) JobEnded: {'identifier': 'so_arm_100_hardware', 'rc': 0}
+[6.537922] (-) EventReactorShutdown: {}

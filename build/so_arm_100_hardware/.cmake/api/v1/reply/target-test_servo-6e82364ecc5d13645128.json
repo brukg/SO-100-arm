@@ -1,0 +1,157 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "test_servo"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"add_compile_options",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 8,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 66,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-Wpedantic"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/viki/dim/so_arm_100_hardware/include/SCServo_Linux"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "SCServo::@f65380b19e07b075ae91"
+		}
+	],
+	"id" : "test_servo::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib/so_arm_100_hardware"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/viki/dim/install/so_arm_100_hardware"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "include/SCServo_Linux/libSCServo.a",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "test_servo",
+	"nameOnDisk" : "test_servo",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "test/test_servo.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,8 @@
+source;share/so_arm_100_hardware/hook/cmake_prefix_path.ps1
+source;share/so_arm_100_hardware/hook/cmake_prefix_path.dsv
+source;share/so_arm_100_hardware/hook/cmake_prefix_path.sh
+source;share/so_arm_100_hardware/local_setup.bash
+source;share/so_arm_100_hardware/local_setup.dsv
+source;share/so_arm_100_hardware/local_setup.ps1
+source;share/so_arm_100_hardware/local_setup.sh
+source;share/so_arm_100_hardware/local_setup.zsh

@@ -1,0 +1,131 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "include/SCServo_Linux/libSCServo.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"include/SCServo_Linux/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/home/viki/dim/so_arm_100_hardware/include/SCServo_Linux"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"id" : "SCServo::@f65380b19e07b075ae91",
+	"name" : "SCServo",
+	"nameOnDisk" : "libSCServo.a",
+	"paths" : 
+	{
+		"build" : "include/SCServo_Linux",
+		"source" : "include/SCServo_Linux"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/SCServo_Linux/SCS.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/SCServo_Linux/SCSCL.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/SCServo_Linux/SCSerial.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/SCServo_Linux/SMSBL.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/SCServo_Linux/SMSCL.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "include/SCServo_Linux/SMS_STS.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

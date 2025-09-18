@@ -1,0 +1,6 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<library path="so_arm_100_hardware">
+<class name="so_arm_100_controller/SOARM100Interface" type="so_arm_100_controller::SOARM100Interface" base_class_type="hardware_interface::SystemInterface">
+<description> SO-ARM-100 Hardware Interface </description>
+</class>
+</library>

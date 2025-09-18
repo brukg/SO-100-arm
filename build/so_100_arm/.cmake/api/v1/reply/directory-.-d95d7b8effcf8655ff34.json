@@ -1,0 +1,402 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"ament_index_register_resource",
+			"ament_cmake_environment_generate_package_run_dependencies_marker",
+			"include",
+			"ament_execute_extensions",
+			"ament_package",
+			"ament_cmake_environment_generate_parent_prefix_path_marker",
+			"ament_environment_hooks",
+			"ament_generate_package_environment",
+			"ament_index_register_package",
+			"_ament_package"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_resource.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment/ament_cmake_environment_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_environment_hooks.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_cmake_environment_hooks_package_hook.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/ament_generate_package_environment.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_index_register_package.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 66,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 29,
+				"parent" : 7
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 48,
+				"parent" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 43,
+				"parent" : 10
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"file" : 6,
+				"parent" : 13
+			},
+			{
+				"command" : 7,
+				"file" : 6,
+				"line" : 20,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 70,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 70,
+				"parent" : 15
+			},
+			{
+				"command" : 0,
+				"file" : 5,
+				"line" : 87,
+				"parent" : 15
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 26,
+				"parent" : 14
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 91,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 91,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 91,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 107,
+				"parent" : 20
+			},
+			{
+				"command" : 0,
+				"file" : 7,
+				"line" : 119,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 48,
+				"parent" : 4
+			},
+			{
+				"file" : 9,
+				"parent" : 26
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 16,
+				"parent" : 27
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 29,
+				"parent" : 28
+			},
+			{
+				"command" : 0,
+				"file" : 1,
+				"line" : 105,
+				"parent" : 29
+			},
+			{
+				"command" : 10,
+				"file" : 4,
+				"line" : 68,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 150,
+				"parent" : 31
+			},
+			{
+				"command" : 0,
+				"file" : 4,
+				"line" : 157,
+				"parent" : 31
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm",
+			"paths" : 
+			[
+				"models",
+				"urdf",
+				"launch",
+				"config"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm",
+			"paths" : 
+			[
+				".setup_assistant"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 9,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/package_run_dependencies",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/so_100_arm"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 12,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/parent_prefix_path",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/so_100_arm"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 16,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 17,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm/environment",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_environment_hooks/ament_prefix_path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 18,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm/environment",
+			"paths" : 
+			[
+				"/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 19,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm/environment",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_environment_hooks/path.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 21,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_environment_hooks/local_setup.bash"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 22,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_environment_hooks/local_setup.sh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 23,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_environment_hooks/local_setup.zsh"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 24,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_environment_hooks/local_setup.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 25,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_environment_hooks/package.dsv"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 30,
+			"component" : "Unspecified",
+			"destination" : "share/ament_index/resource_index/packages",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_index/share/ament_index/resource_index/packages/so_100_arm"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 32,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm/cmake",
+			"paths" : 
+			[
+				"/home/viki/dim/build/so_100_arm/ament_cmake_core/so_100_armConfig.cmake",
+				"/home/viki/dim/build/so_100_arm/ament_cmake_core/so_100_armConfig-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 33,
+			"component" : "Unspecified",
+			"destination" : "share/so_100_arm",
+			"paths" : 
+			[
+				"package.xml"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

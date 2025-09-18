@@ -1,0 +1,152 @@
+-- The C compiler identification is GNU 12.3.0
+-- The CXX compiler identification is GNU 12.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found hardware_interface: 2.51.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/viki/dim/so_arm_100_hardware/include;/home/viki/dim/so_arm_100_hardware/include/SCServo_Linux
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/viki/dim/build/so_arm_100_hardware
+[  7%] [32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SCS.cpp.o[0m
+[ 15%] [32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SCSCL.cpp.o[0m
+[ 23%] [32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SCSerial.cpp.o[0m
+[ 30%] [32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SMSBL.cpp.o[0m
+[ 38%] [32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SMSCL.cpp.o[0m
+[ 46%] [32mBuilding CXX object include/SCServo_Linux/CMakeFiles/SCServo.dir/SMS_STS.cpp.o[0m
+[ 53%] [32m[1mLinking CXX static library libSCServo.a[0m
+[ 53%] Built target SCServo
+[ 61%] [32mBuilding CXX object CMakeFiles/ping_test.dir/test/ping_test.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/test_servo.dir/test/test_servo.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/so_arm_100_hardware.dir/src/so_arm_100_interface.cpp.o[0m
+[01m[K/home/viki/dim/so_arm_100_hardware/test/ping_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/viki/dim/so_arm_100_hardware/test/ping_test.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/test/ping_test.cpp:8:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main(int argc, [01;35m[Kchar **argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/test/test_servo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/viki/dim/so_arm_100_hardware/test/test_servo.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/test/test_servo.cpp:8:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main(int argc, [01;35m[Kchar **argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+[ 84%] [32m[1mLinking CXX executable test_servo[0m
+[ 92%] [32m[1mLinking CXX executable ping_test[0m
+[ 92%] Built target test_servo
+[ 92%] Built target ping_test
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type so_arm_100_controller::SOARM100Interface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:183:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  183 | hardware_interface::return_type SOARM100Interface::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:183:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  183 | urn_type SOARM100Interface::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type so_arm_100_controller::SOARM100Interface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:243:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmove[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  243 |                 int [01;35m[Kmove[m[K = st3215_.ReadMove(servo_id);
+      |                     [01;35m[K^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:218:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  218 | hardware_interface::return_type SOARM100Interface::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:218:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  218 | turn_type SOARM100Interface::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[100%] [32m[1mLinking CXX shared library libso_arm_100_hardware.so[0m
+[100%] Built target so_arm_100_hardware
+-- Install configuration: ""
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/so_arm_100_hardware.xml
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/library_path.sh
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/library_path.dsv
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config/calibration.yaml
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config/hardware_config.yaml
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config/posses
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/config/posses/zero.txt
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMS_STS.h
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSBL.h
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSerial.cpp
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/CMakeLists.txt
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSerial.h
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSBL.cpp
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSCL.cpp
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMS_STS.cpp
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCSCL.h
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSCL.h
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/.gitignore
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCS.cpp
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SMSCL.cpp
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/INST.h
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCS.h
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/SCServo_Linux/SCServo.h
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/so_arm_100_hardware
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/include/so_arm_100_hardware/so_arm_100_interface.hpp
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/posses
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/posses/zero.txt
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/libso_arm_100_hardware.so
+-- Set runtime path of "/home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/libso_arm_100_hardware.so" to ""
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/test_servo
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/ping_test
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/calibrate_arm.py
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/zero_pose.py
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/lib/so_arm_100_hardware/jog_joints.py
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/ament_index/resource_index/package_run_dependencies/so_arm_100_hardware
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/ament_index/resource_index/parent_prefix_path/so_arm_100_hardware
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/ament_prefix_path.sh
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/ament_prefix_path.dsv
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/path.sh
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/environment/path.dsv
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.bash
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.sh
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.zsh
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/local_setup.dsv
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/package.dsv
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/ament_index/resource_index/packages/so_arm_100_hardware
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/so_arm_100_hardware
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/so_arm_100_hardwareConfig.cmake
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/cmake/so_arm_100_hardwareConfig-version.cmake
+-- Installing: /home/viki/dim/install/so_arm_100_hardware/share/so_arm_100_hardware/package.xml

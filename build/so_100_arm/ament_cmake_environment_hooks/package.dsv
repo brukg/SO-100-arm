@@ -1,0 +1,4 @@
+source;share/so_100_arm/local_setup.bash
+source;share/so_100_arm/local_setup.dsv
+source;share/so_100_arm/local_setup.sh
+source;share/so_100_arm/local_setup.zsh

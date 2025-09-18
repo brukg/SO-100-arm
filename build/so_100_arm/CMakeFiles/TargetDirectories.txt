@@ -1,0 +1,9 @@
+/home/viki/dim/build/so_100_arm/CMakeFiles/uninstall.dir
+/home/viki/dim/build/so_100_arm/CMakeFiles/so_100_arm_uninstall.dir
+/home/viki/dim/build/so_100_arm/CMakeFiles/test.dir
+/home/viki/dim/build/so_100_arm/CMakeFiles/edit_cache.dir
+/home/viki/dim/build/so_100_arm/CMakeFiles/rebuild_cache.dir
+/home/viki/dim/build/so_100_arm/CMakeFiles/list_install_components.dir
+/home/viki/dim/build/so_100_arm/CMakeFiles/install.dir
+/home/viki/dim/build/so_100_arm/CMakeFiles/install/local.dir
+/home/viki/dim/build/so_100_arm/CMakeFiles/install/strip.dir

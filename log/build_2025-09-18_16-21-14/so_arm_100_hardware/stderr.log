@@ -1,0 +1,33 @@
+[01m[K/home/viki/dim/so_arm_100_hardware/test/ping_test.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/viki/dim/so_arm_100_hardware/test/ping_test.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/test/ping_test.cpp:8:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main(int argc, [01;35m[Kchar **argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/test/test_servo.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/viki/dim/so_arm_100_hardware/test/test_servo.cpp:8:14:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main([01;35m[Kint argc[m[K, char **argv)
+      |          [01;35m[K~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/test/test_servo.cpp:8:27:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | int main(int argc, [01;35m[Kchar **argv[m[K)
+      |                    [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type so_arm_100_controller::SOARM100Interface::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:183:79:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  183 | hardware_interface::return_type SOARM100Interface::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:183:110:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  183 | urn_type SOARM100Interface::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type so_arm_100_controller::SOARM100Interface::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:243:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kmove[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  243 |                 int [01;35m[Kmove[m[K = st3215_.ReadMove(servo_id);
+      |                     [01;35m[K^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:218:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  218 | hardware_interface::return_type SOARM100Interface::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/home/viki/dim/so_arm_100_hardware/src/so_arm_100_interface.cpp:218:109:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  218 | turn_type SOARM100Interface::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+

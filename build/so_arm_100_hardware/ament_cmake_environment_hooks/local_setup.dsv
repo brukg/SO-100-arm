@@ -1,0 +1,3 @@
+source;share/so_arm_100_hardware/environment/ament_prefix_path.sh
+source;share/so_arm_100_hardware/environment/library_path.sh
+source;share/so_arm_100_hardware/environment/path.sh

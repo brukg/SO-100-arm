@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "include/SCServo_Linux",
+		"source" : "include/SCServo_Linux"
+	}
+}
