@@ -5,13 +5,13 @@ controller_manager:
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
     
-    so_100_arm_controller:
+    arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-    so_100_arm_gripper_controller:
+    gripper_controller:
       type: position_controllers/JointGroupPositionController
 
-so_100_arm_controller:
+arm_controller:
   ros__parameters:
     joints:
       - Shoulder_Rotation
@@ -40,7 +40,7 @@ so_100_arm_controller:
           trajectory: 0.05
           goal: 0.03
 
-so_100_arm_gripper_controller:
+gripper_controller:
   ros__parameters:
     joints:
       - Gripper
