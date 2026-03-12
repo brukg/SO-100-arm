@@ -124,7 +124,7 @@ Testing servo 1...
 Send a test trajectory to move the physical arm:
 
 ```bash
-ros2 action send_goal /so_100_arm_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory "{
+ros2 action send_goal /arm_controller/follow_joint_trajectory control_msgs/action/FollowJointTrajectory "{
   trajectory: {
     joint_names: [Shoulder_Rotation, Shoulder_Pitch, Elbow, Wrist_Pitch, Wrist_Roll],
     points: [

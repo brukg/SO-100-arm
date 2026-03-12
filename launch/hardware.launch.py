@@ -67,14 +67,14 @@ def generate_launch_description():
     robot_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["so_100_arm_controller", "-c", "/controller_manager"],
+        arguments=["arm_controller", "-c", "/controller_manager"],
         output="screen",
     )
 
     gripper_controller_spawner = Node(
         package="controller_manager",
         executable="spawner",
-        arguments=["so_100_arm_gripper_controller", "-c", "/controller_manager"],
+        arguments=["gripper_controller", "-c", "/controller_manager"],
         output="screen",
     )
 
