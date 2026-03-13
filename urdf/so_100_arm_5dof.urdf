@@ -7,9 +7,6 @@
   <gazebo>
     <plugin filename="libgz-sim-physics-system.so"
             name="gz::sim::systems::Physics">
-        <engine>
-            <filename>libgz-physics-ode-plugin.so</filename>
-        </engine>
         <update_rate>1000</update_rate>
         <gravity>0 0 -9.8</gravity>
         <max_step_size>0.001</max_step_size>
@@ -22,10 +19,13 @@
             </solver>
         </ode>
     </plugin>
+
+    <!-- Publish the joint states of the robot -->
     <plugin filename="libgz-sim-joint-state-publisher-system.so"
             name="gz::sim::systems::JointStatePublisher">
     </plugin>
 
+    <!-- Publish the pose of the robot -->
     <plugin filename="libgz-sim-pose-publisher-system.so"
             name="gz::sim::systems::PosePublisher">
     </plugin>

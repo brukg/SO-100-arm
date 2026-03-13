@@ -8,7 +8,7 @@ from launch.substitutions import LaunchConfiguration
 def generate_launch_description():
     use_fake_hardware_arg = DeclareLaunchArgument(
         'use_fake_hardware',
-        default_value='true',
+        default_value='false',
         description='Use fake hardware'
     )
 

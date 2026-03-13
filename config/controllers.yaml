@@ -1,6 +1,6 @@
 controller_manager:
   ros__parameters:
-    update_rate: 1000
+    update_rate: 200
     
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
@@ -19,12 +19,13 @@ arm_controller:
       - Elbow
       - Wrist_Pitch
       - Wrist_Roll
-    
-    interface_name: position
+
     command_interfaces:
       - position
+      - velocity
     state_interfaces:
       - position
+      - velocity
     state_publish_rate: 50.0
     action_monitor_rate: 20.0
     
@@ -44,8 +45,9 @@ gripper_controller:
   ros__parameters:
     joints:
       - Gripper
-    interface_name: position
     command_interfaces:
       - position
+      - velocity
     state_interfaces:
       - position
+      - velocity
