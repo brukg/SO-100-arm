@@ -6,10 +6,17 @@ controller_manager:
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
-
     gripper_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
+    arm_effort_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    gripper_effort_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+    effort_controller:
+      type: effort_controllers/JointGroupEffortController
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
@@ -40,3 +47,42 @@ gripper_controller:
       - position
       - velocity
     allow_nonzero_velocity_at_trajectory_end: true
+
+arm_effort_controller:
+  ros__parameters:
+    joints:
+      - Shoulder_Rotation
+      - Shoulder_Pitch
+      - Elbow
+      - Wrist_Pitch
+      - Wrist_Roll
+    command_interfaces:
+      - position
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
+
+
+gripper_effort_controller:
+  ros__parameters:
+    joints:
+      - Gripper
+    command_interfaces:
+      - position
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: true
+
+effort_controller:
+  ros__parameters:
+    joints:
+      - Shoulder_Rotation
+      - Shoulder_Pitch
+      - Elbow
+      - Wrist_Pitch
+      - Wrist_Roll
+      - Gripper

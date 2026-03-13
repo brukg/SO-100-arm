@@ -18,6 +18,7 @@
             <joint name="Shoulder_Rotation">
                 <command_interface name="position"/>
                 <command_interface name="velocity"/>
+                <command_interface name="effort"/>
                 <state_interface name="position">
                   <param name="initial_value">${initial_positions['Shoulder_Rotation']}</param>
                 </state_interface>
@@ -27,6 +28,7 @@
             <joint name="Shoulder_Pitch">
                 <command_interface name="position"/>
                 <command_interface name="velocity"/>
+                <command_interface name="effort"/>
                 <state_interface name="position">
                   <param name="initial_value">${initial_positions['Shoulder_Pitch']}</param>
                 </state_interface>
@@ -36,6 +38,7 @@
             <joint name="Elbow">
                 <command_interface name="position"/>
                 <command_interface name="velocity"/>
+                <command_interface name="effort"/>
                 <state_interface name="position">
                   <param name="initial_value">${initial_positions['Elbow']}</param>
                 </state_interface>
@@ -45,6 +48,7 @@
             <joint name="Wrist_Pitch">
                 <command_interface name="position"/>
                 <command_interface name="velocity"/>
+                <command_interface name="effort"/>
                 <state_interface name="position">
                   <param name="initial_value">${initial_positions['Wrist_Pitch']}</param>
                 </state_interface>
@@ -54,6 +58,7 @@
             <joint name="Wrist_Roll">
                 <command_interface name="position"/>
                 <command_interface name="velocity"/>
+                <command_interface name="effort"/>
                 <state_interface name="position">
                   <param name="initial_value">${initial_positions['Wrist_Roll']}</param>
                 </state_interface>
@@ -63,6 +68,7 @@
             <joint name="Gripper">
                 <command_interface name="position"/>
                 <command_interface name="velocity"/>
+                <command_interface name="effort"/>
                 <state_interface name="position">
                   <param name="initial_value">${initial_positions['Gripper']}</param>
                 </state_interface>

@@ -1,15 +1,24 @@
 controller_manager:
   ros__parameters:
     update_rate: 200
-    
+
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
-    
+
     arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
-
     gripper_controller:
       type: position_controllers/JointGroupPositionController
+
+    arm_effort_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+
+
+    gripper_effort_controller:
+      type: position_controllers/JointGroupPositionController
+
+    effort_controller:
+      type: effort_controllers/JointGroupEffortController
 
 arm_controller:
   ros__parameters:
@@ -28,11 +37,11 @@ arm_controller:
       - velocity
     state_publish_rate: 50.0
     action_monitor_rate: 20.0
-    
+
     # Add this to prevent movement on startup
     start_position_control: false
     hold_position_on_startup: true
-    
+
     constraints:
       stopped_velocity_tolerance: 0.01
       goal_time: 0.0
@@ -40,7 +49,6 @@ arm_controller:
         joint1:
           trajectory: 0.05
           goal: 0.03
-
 gripper_controller:
   ros__parameters:
     joints:
@@ -51,3 +59,50 @@ gripper_controller:
     state_interfaces:
       - position
       - velocity
+
+arm_effort_controller:
+  ros__parameters:
+    joints:
+      - Shoulder_Rotation
+      - Shoulder_Pitch
+      - Elbow
+      - Wrist_Pitch
+      - Wrist_Roll
+
+    command_interfaces:
+      - position
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+    state_publish_rate: 50.0
+    action_monitor_rate: 20.0
+
+    start_position_control: false
+    hold_position_on_startup: true
+
+    constraints:
+      stopped_velocity_tolerance: 0.01
+      goal_time: 0.0
+
+
+gripper_effort_controller:
+  ros__parameters:
+    joints:
+      - Gripper
+    command_interfaces:
+      - position
+      - effort
+    state_interfaces:
+      - position
+      - velocity
+
+effort_controller:
+  ros__parameters:
+    joints:
+      - Shoulder_Rotation
+      - Shoulder_Pitch
+      - Elbow
+      - Wrist_Pitch
+      - Wrist_Roll
+      - Gripper

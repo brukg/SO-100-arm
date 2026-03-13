@@ -78,6 +78,28 @@ def generate_launch_description():
         output="screen",
     )
 
+    # Effort-based controllers (loaded but inactive by default)
+    arm_effort_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["arm_effort_controller", "-c", "/controller_manager", "--inactive"],
+        output="screen",
+    )
+
+    gripper_effort_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["gripper_effort_controller", "-c", "/controller_manager", "--inactive"],
+        output="screen",
+    )
+
+    effort_controller_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["effort_controller", "-c", "/controller_manager", "--inactive"],
+        output="screen",
+    )
+
     # Delay loading and starting robot_controller after joint_state_broadcaster
     delay_robot_controller_spawner_after_joint_state_broadcaster_spawner = RegisterEventHandler(
         event_handler=OnProcessExit(
@@ -109,6 +131,9 @@ def generate_launch_description():
         joint_state_broadcaster_spawner,
         delay_robot_controller_spawner_after_joint_state_broadcaster_spawner,
         gripper_controller_spawner,
+        arm_effort_controller_spawner,
+        gripper_effort_controller_spawner,
+        effort_controller_spawner,
         rviz_node,
         zero_pose_node
     ]
