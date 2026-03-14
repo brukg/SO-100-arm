@@ -57,25 +57,30 @@ arm_effort_controller:
       - Wrist_Pitch
       - Wrist_Roll
     command_interfaces:
-      - position
       - effort
     state_interfaces:
       - position
       - velocity
     allow_nonzero_velocity_at_trajectory_end: true
-
+    gains:
+      Shoulder_Rotation: {p: 75.0, i: 0.0, d: 1.0}
+      Shoulder_Pitch: {p: 75.0, i: 0.0, d: 1.0}
+      Elbow: {p: 75.0, i: 0.0, d: 1.0}
+      Wrist_Pitch: {p: 75.0, i: 0.0, d: 1.0}
+      Wrist_Roll: {p: 75.0, i: 0.0, d: 1.0}
 
 gripper_effort_controller:
   ros__parameters:
     joints:
       - Gripper
     command_interfaces:
-      - position
       - effort
     state_interfaces:
       - position
       - velocity
     allow_nonzero_velocity_at_trajectory_end: true
+    gains:
+      Gripper: {p: 75.0, i: 0.0, d: 1.0}
 
 effort_controller:
   ros__parameters:
