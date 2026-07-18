@@ -40,20 +40,23 @@ class SOARM1005DofCommandRelay(Node):
         # Create publishers and subscriptions
         self.pubs = {}
         for joint_name, topic in JOINT_TOPICS.items():
+            prefixed_joint_name = f"{prefix}{joint_name}"
             prefixed_topic = f"{prefix}{topic}"
-            self.pubs[joint_name] = self.create_publisher(Float64, prefixed_topic, 10)
+            self.pubs[prefixed_joint_name] = self.create_publisher(
+                Float64, prefixed_topic, 10
+            )
         self.create_subscription(
-            JointState, "/robot_joint_commands", self.on_joint_command, 10
+            JointState, "robot_joint_commands", self.on_joint_command, 10
         )
 
     def on_joint_command(self, msg):
         for i, name in enumerate(msg.name):
             if name in self.pubs:
                 cmd = Float64()
-                if not math.isnan(msg.position[i]):
+                if msg.position and not math.isnan(msg.position[i]):
                     # position command
                     cmd.data = msg.position[i]
-                elif not math.isnan(msg.velocity[i]):
+                elif msg.velocity and not math.isnan(msg.velocity[i]):
                     # velocity command
                     cmd.data = msg.velocity[i]
                 self.pubs[name].publish(cmd)

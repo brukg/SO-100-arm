@@ -1,6 +1,11 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://ros.org/wiki/xacro">
-  <xacro:macro name="so_arm_100_5dof_gazebo" params="prefix initial_positions_file:=^|'' ros2_controllers_file:=^|'' use_topic_hardware_interface:=^|false">
+  <xacro:macro name="so_arm_100_5dof_gazebo"
+    params="
+      prefix
+      initial_positions_file:=^|''
+      ros2_controllers_file:=^|''
+      use_topic_hardware_interface:=^|false">
   <!--
   Parameters
       prefix: prefix for joints and links
@@ -61,7 +66,8 @@
         <cmd_max>100.0</cmd_max>
         <cmd_min>-100.0</cmd_min>
         <xacro:if value="${initial_positions_file != ''}">
-          <initial_position>${initial_positions['Shoulder_Rotation']}</initial_position>
+          <xacro:property name="joint_name" value="${prefix}Shoulder_Rotation"/>
+          <initial_position>${initial_positions[joint_name]}</initial_position>
         </xacro:if>
       </plugin>
       <plugin name="gz::sim::systems::JointPositionController"
@@ -76,7 +82,8 @@
         <cmd_max>100.0</cmd_max>
         <cmd_min>-100.0</cmd_min>
         <xacro:if value="${initial_positions_file != ''}">
-          <initial_position>${initial_positions['Shoulder_Pitch']}</initial_position>
+          <xacro:property name="joint_name" value="${prefix}Shoulder_Pitch"/>
+          <initial_position>${initial_positions[joint_name]}</initial_position>
         </xacro:if>
       </plugin>
       <plugin name="gz::sim::systems::JointPositionController"
@@ -91,7 +98,8 @@
         <cmd_max>100.0</cmd_max>
         <cmd_min>-100.0</cmd_min>
         <xacro:if value="${initial_positions_file != ''}">
-          <initial_position>${initial_positions['Elbow']}</initial_position>
+          <xacro:property name="joint_name" value="${prefix}Elbow"/>
+          <initial_position>${initial_positions[joint_name]}</initial_position>
         </xacro:if>
       </plugin>
       <plugin name="gz::sim::systems::JointPositionController"
@@ -106,7 +114,8 @@
         <cmd_max>100.0</cmd_max>
         <cmd_min>-100.0</cmd_min>
         <xacro:if value="${initial_positions_file != ''}">
-          <initial_position>${initial_positions['Wrist_Pitch']}</initial_position>
+          <xacro:property name="joint_name" value="${prefix}Wrist_Pitch"/>
+          <initial_position>${initial_positions[joint_name]}</initial_position>
         </xacro:if>
       </plugin>
       <plugin name="gz::sim::systems::JointPositionController"
@@ -121,7 +130,8 @@
         <cmd_max>100.0</cmd_max>
         <cmd_min>-100.0</cmd_min>
         <xacro:if value="${initial_positions_file != ''}">
-          <initial_position>${initial_positions['Wrist_Roll']}</initial_position>
+          <xacro:property name="joint_name" value="${prefix}Wrist_Roll"/>
+          <initial_position>${initial_positions[joint_name]}</initial_position>
         </xacro:if>
       </plugin>
       <plugin name="gz::sim::systems::JointPositionController"
@@ -136,7 +146,8 @@
         <cmd_max>100.0</cmd_max>
         <cmd_min>-100.0</cmd_min>
         <xacro:if value="${initial_positions_file != ''}">
-          <initial_position>${initial_positions['Gripper']}</initial_position>
+          <xacro:property name="joint_name" value="${prefix}Gripper"/>
+          <initial_position>${initial_positions[joint_name]}</initial_position>
         </xacro:if>
       </plugin>
     </xacro:if>
