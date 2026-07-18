@@ -34,7 +34,15 @@ For using the physical robot:
 - SO-ARM-100 robot arm (5-DOF)
 - Feetech SMS/STS series servos
 - USB-to-Serial converter (CH340 chip)
-- so_arm_100_hardware package installed:
+- `so_arm_100_hardware` package — install one of the following:
+
+  **Option A — apt (ROS 2 Jazzy):**
+
+  ```bash
+  sudo apt install ros-jazzy-so-arm-100-hardware
+  ```
+
+  **Option B — from source:**
 
   ```bash
   cd ~/ros2_ws/src
@@ -43,6 +51,26 @@ For using the physical robot:
   colcon build --packages-select so_arm_100_hardware
   source install/setup.bash
   ```
+
+### Calibrating the Arm
+
+The hardware interface converts servo ticks to radians. Without a calibration file it falls back to a generic `(ticks − 2048)·2π/4096` mapping, which produces the wrong joint range (most visible on the gripper — RViz shows it half-open at full physical open). Calibrate before first use:
+
+1. Run the calibration tool and follow the prompts to record min / center / max ticks for each joint:
+
+   ```bash
+   ros2 run so_arm_100_hardware calibrate_arm.py
+   ```
+
+   This writes `so_arm_100_hardware/config/calibration.yaml`.
+
+2. Make sure the hardware plugin loads it. In `so_arm_100_description/ros2_control/so_arm_100_5dof_position.ros2_control.xacro`, inside the real-hardware `<hardware>` block, add:
+
+   ```xml
+   <param name="calibration_file">$(find so_arm_100_hardware)/config/calibration.yaml</param>
+   ```
+
+3. Rebuild and relaunch. If a joint's range still doesn't match the URDF after calibration, adjust the corresponding `<limit>` in `so_arm_100_description/urdf/so_arm_100_5dof_arm.urdf.xacro` (and the matching entry in `so_arm_100_moveit_config/config/hardware_controllers.yaml`) to match the value reported on `/joint_states` at the physical end-stop.
 
 ## Installation
 
@@ -170,7 +198,6 @@ ros2 launch so_arm_100 demo.launch.py
 
 ### Test Joint Movement
 
-
 #### Send a test position command for 5dof arm
 
 ```bash
@@ -217,7 +244,7 @@ The video above shows the SO-100 robot arm in Gazebo Harmonic simulation:
 ```bash
 so_arm_100/
 ├── CMakeLists.txt                      # Build system configuration
-├── config/  
+├── config/
 │   ├── controllers_5dof.yaml           # 5DOF joint controller configuration
 │   ├── initial_positions.yaml          # Default joint positions
 │   ├── joint_limits.yaml               # Joint velocity and position limits
@@ -231,7 +258,7 @@ so_arm_100/
 │   ├── so_arm_100.srdf                 # Semantic robot description
 │   ├── so_arm_100.urdf.xacro           # Main robot description macro
 │   └── urdf.rviz                       # RViz configuration for URDF
-├── launch/  
+├── launch/
 │   ├── demo.launch.py                  # MoveIt demo with RViz
 │   ├── gz.launch.py                    # Gazebo simulation launch
 │   ├── move_group.launch.py            # MoveIt move_group launch
@@ -260,10 +287,10 @@ so_arm_100/
 ### 5-DOF Configuration
 
 1. Shoulder Rotation (-3.14 to 3.14 rad)
-2. Shoulder Pitch    (-3.14 to 3.14 rad)
-3. Elbow            (-3.14 to 3.14 rad)
-4. Wrist Pitch      (-3.14 to 3.14 rad)
-5. Wrist Roll       (-3.14 to 3.14 rad)
+2. Shoulder Pitch (-3.14 to 3.14 rad)
+3. Elbow (-3.14 to 3.14 rad)
+4. Wrist Pitch (-3.14 to 3.14 rad)
+5. Wrist Roll (-3.14 to 3.14 rad)
 
 Note: The 5-DOF configuration uses continuous rotation joints with full range of motion (±π radians).
 
