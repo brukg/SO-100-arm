@@ -1,0 +1,6 @@
+ikfast_kinematics:
+  link_prefix:
+    default_value: ''
+    description: prefix added to tip- and baseframe to allow different namespaces
+      or multi-robot setups
+    type: string
